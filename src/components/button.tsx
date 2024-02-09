@@ -16,7 +16,7 @@ type ButtonIconProps = {
 function Button({ children, ...rest }: ButtonProps){
   return (
     <TouchableOpacity 
-      className="bg-lime-400 rounded-md items-center justify-center flex-row" 
+      className="bg-lime-400 rounded-md items-center justify-center flex-row h-9" 
       {...rest}
     >
       {children}
